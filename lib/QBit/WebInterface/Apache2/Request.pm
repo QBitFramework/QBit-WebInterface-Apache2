@@ -16,7 +16,7 @@ sub http_header {
 
 sub method {shift->r->method()}
 
-sub uri {shift->r->unparsed_uri()}
+sub _uri {shift->r->unparsed_uri()}
 
 sub scheme {
     return $_[0]->r->subprocess_env('SSL_SERVER_S_DN_CN')
