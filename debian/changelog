@@ -1,3 +1,9 @@
+libqbit-webinterface-apache2-perl (0.004) raring; urgency=low
+
+  * upload to cpan
+
+ -- Igor Sverdlov <igor-sverdlov@mail.ru>  Sun, 11 Sep 2016 16:54:08 +0300
+
 libqbit-webinterface-apache2-perl (0.003) raring; urgency=low
 
   * Fixing uninitialized value
