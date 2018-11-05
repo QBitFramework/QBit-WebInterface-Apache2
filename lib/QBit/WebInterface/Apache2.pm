@@ -53,3 +53,33 @@ sub handler : method {
 }
 
 TRUE;
+
+__END__
+
+=encoding utf8
+
+=head1 Name
+
+QBit::WebInterface::Apache2 - Package for connect WebInterface to Apache 2.
+
+=head1 GitHub
+
+https://github.com/QBitFramework/QBit-WebInterface-Apache2
+
+=head1 Install
+
+=over
+
+=item *
+
+cpanm QBit::WebInterface::Apache2
+
+=item *
+
+apt-get install libqbit-webinterface-apache2-perl (http://perlhub.ru/)
+
+=back
+
+For more information. please, see code.
+
+=cut
