@@ -22,11 +22,10 @@ my %WriteMakefileArgs = (
     "Apache2::RequestUtil" => 0,
     "QBit::WebInterface" => 0,
     "QBit::WebInterface::Request" => 0,
-    "URI::Escape" => 0,
     "base" => 0,
     "qbit" => 0
   },
-  "VERSION" => "0.005",
+  "VERSION" => "0.006",
   "test" => {
     "TESTS" => ""
   }
@@ -40,7 +39,6 @@ my %FallbackPrereqs = (
   "Apache2::RequestUtil" => 0,
   "QBit::WebInterface" => 0,
   "QBit::WebInterface::Request" => 0,
-  "URI::Escape" => 0,
   "base" => 0,
   "qbit" => 0
 );
